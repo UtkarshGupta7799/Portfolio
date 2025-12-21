@@ -58,6 +58,8 @@ const navLinks = [
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
   { id: 'experience', label: 'Experience' },
+  { id: 'leetcode', label: 'LeetCode' },
+  { id: 'achievements', label: 'Awards' },
   { id: 'contact', label: 'Contact' }
 ]
 

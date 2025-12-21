@@ -5,17 +5,19 @@
     <Skills />
     <Projects />
     <Experience />
+    <LeetCodeStats />
+    <Achievements />
     <Contact />
   </div>
 </template>
 
 <script setup lang="ts">
 useHead({
-  title: 'Utkarsh - ML/AI Engineer Portfolio',
+  title: 'Utkarsh Gupta - ML/AI Engineer Portfolio',
   meta: [
     { 
       name: 'description', 
-      content: 'Portfolio of Utkarsh - Machine Learning and AI Engineer specializing in deep learning, computer vision, and intelligent systems.' 
+      content: 'Portfolio of Utkarsh Gupta - Machine Learning and AI Engineer specializing in deep learning, computer vision, and intelligent systems. Top 0.1% Kaggle competitor with 750+ LeetCode problems solved.' 
     }
   ]
 })
