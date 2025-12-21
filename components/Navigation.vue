@@ -60,6 +60,7 @@ const navLinks = [
   { id: 'experience', label: 'Experience' },
   { id: 'leetcode', label: 'LeetCode' },
   { id: 'achievements', label: 'Awards' },
+  { id: 'education', label: 'Education' },
   { id: 'contact', label: 'Contact' }
 ]
 

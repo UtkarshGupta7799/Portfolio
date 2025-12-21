@@ -215,5 +215,16 @@
         "Top 0.1% in Industry-Sponsored Kaggle Machine Learning Competition among 2700+ submissions",
         "Solved 750+ algorithmic problems on LeetCode spanning core Data Structures & Algorithms topics",
         "Qualified GATE 2025 (CS) - Among top 15% of candidates in a national-level engineering exam"
+    ],
+    "hackathons": [
+        "Smart India Hackathon 2024 - FinAlogica (Fishery Optimization)",
+        "Smart India Hackathon 2023 - Atreya (Ayurvedic Health Platform)",
+        "Sahamati BuildAAthon 2024 - CognitiCharts (Financial Chart Analysis)",
+        "DevCraft IIT Indore - FinAlogica (CNN Species Classifier)",
+        "Celo, Aurora, Harmony - BlockAgent Toolkit (Blockchain Development)",
+        "Social Summer Of Code Season 3 - Atreya (Open Source Contribution)"
+    ],
+    "publications": [
+        "Co-authored Research Publication on TrendForage (Approximate Query Processing)"
     ]
 }

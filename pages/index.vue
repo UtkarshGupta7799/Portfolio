@@ -7,6 +7,7 @@
     <Experience />
     <LeetCodeStats />
     <Achievements />
+    <Education />
     <Contact />
   </div>
 </template>
