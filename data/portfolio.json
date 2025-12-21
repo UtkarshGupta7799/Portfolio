@@ -1,0 +1,259 @@
+{
+    "personal": {
+        "name": "Utkarsh",
+        "title": "Machine Learning & AI Engineer",
+        "tagline": "Building Intelligent Systems with Deep Learning & Computer Vision",
+        "bio": "Passionate ML/AI Engineer specializing in deep learning, computer vision, and intelligent systems. I transform complex problems into elegant solutions using cutting-edge AI technologies.",
+        "email": "your.email@example.com",
+        "location": "India",
+        "github": "https://github.com/yourusername",
+        "linkedin": "https://linkedin.com/in/yourusername",
+        "twitter": "https://twitter.com/yourusername"
+    },
+    "stats": [
+        {
+            "label": "Projects Completed",
+            "value": "10+"
+        },
+        {
+            "label": "Years Experience",
+            "value": "2+"
+        },
+        {
+            "label": "Technologies",
+            "value": "15+"
+        }
+    ],
+    "skills": {
+        "Machine Learning & AI": [
+            "TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "Keras",
+            "OpenCV",
+            "YOLO",
+            "Transformers",
+            "LangChain"
+        ],
+        "Deep Learning": [
+            "Computer Vision",
+            "NLP",
+            "Audio Processing",
+            "GANs",
+            "CNNs",
+            "RNNs/LSTMs",
+            "Transfer Learning"
+        ],
+        "Web Development": [
+            "Next.js",
+            "Nuxt.js",
+            "React",
+            "Vue.js",
+            "Node.js",
+            "FastAPI",
+            "Streamlit"
+        ],
+        "Data & Tools": [
+            "Python",
+            "JavaScript",
+            "TypeScript",
+            "Docker",
+            "Git",
+            "PostgreSQL",
+            "Neo4j",
+            "MongoDB"
+        ],
+        "Cloud & Deployment": [
+            "Vercel",
+            "Render",
+            "AWS",
+            "Google Cloud",
+            "CI/CD",
+            "GitHub Actions"
+        ]
+    },
+    "projects": [
+        {
+            "id": "galenos",
+            "title": "Galenos",
+            "subtitle": "AI-Powered Medical Assistant",
+            "description": "Advanced medical AI system providing intelligent health consultations and diagnostics using state-of-the-art NLP and medical knowledge graphs.",
+            "image": "/projects/galenos.jpg",
+            "tags": [
+                "AI",
+                "Healthcare",
+                "NLP",
+                "Neo4j"
+            ],
+            "github": "https://github.com/yourusername/galenos",
+            "demo": "https://galenos.example.com",
+            "highlights": [
+                "Intelligent medical consultation system",
+                "Knowledge graph integration with Neo4j",
+                "Natural language processing for symptoms",
+                "Deployed on Render with cloud database"
+            ]
+        },
+        {
+            "id": "trendforage",
+            "title": "TrendForage",
+            "subtitle": "Social Media Trend Analysis",
+            "description": "Real-time social media analytics platform leveraging ML for trend detection, sentiment analysis, and predictive insights.",
+            "image": "/projects/trendforage.jpg",
+            "tags": [
+                "ML",
+                "Analytics",
+                "Streamlit",
+                "NLP"
+            ],
+            "github": "https://github.com/yourusername/trendforage",
+            "demo": "https://trendforage.onrender.com",
+            "highlights": [
+                "Real-time trend detection algorithms",
+                "Sentiment analysis with transformers",
+                "Interactive Streamlit dashboard",
+                "Scalable data processing pipeline"
+            ]
+        },
+        {
+            "id": "blockagent",
+            "title": "BlockAgent Toolkit",
+            "subtitle": "Blockchain Development Tools",
+            "description": "Comprehensive blockchain development toolkit with smart contract deployment, testing, and monitoring capabilities.",
+            "image": "/projects/blockagent.jpg",
+            "tags": [
+                "Blockchain",
+                "Web3",
+                "Node.js",
+                "Docker"
+            ],
+            "github": "https://github.com/yourusername/blockagent",
+            "demo": "https://blockagent-frontend.onrender.com",
+            "highlights": [
+                "Smart contract deployment automation",
+                "Multi-chain support",
+                "Dockerized microservices architecture",
+                "Real-time blockchain monitoring"
+            ]
+        },
+        {
+            "id": "cogniticharts",
+            "title": "CognitiCharts",
+            "subtitle": "AI Chart Understanding",
+            "description": "Deep learning system for automated chart analysis and data extraction from images using computer vision and OCR.",
+            "image": "/projects/cogniticharts.jpg",
+            "tags": [
+                "Computer Vision",
+                "Deep Learning",
+                "OCR",
+                "Docker"
+            ],
+            "github": "https://github.com/yourusername/cogniticharts",
+            "demo": "https://cogniticharts.onrender.com",
+            "highlights": [
+                "Chart type classification with CNNs",
+                "Data extraction from visual charts",
+                "Multi-format support (CSV, images)",
+                "Containerized deployment on Render"
+            ]
+        },
+        {
+            "id": "finalogica",
+            "title": "FinAlogica",
+            "subtitle": "Financial Analytics Platform",
+            "description": "Intelligent financial analysis platform with predictive modeling, portfolio optimization, and risk assessment.",
+            "image": "/projects/finalogica.jpg",
+            "tags": [
+                "FinTech",
+                "ML",
+                "Next.js",
+                "PostgreSQL"
+            ],
+            "github": "https://github.com/yourusername/finalogica",
+            "demo": "https://fin-alogica.vercel.app",
+            "highlights": [
+                "Predictive financial modeling",
+                "Portfolio optimization algorithms",
+                "Real-time market data integration",
+                "Full-stack deployment on Vercel & Render"
+            ]
+        },
+        {
+            "id": "atreya",
+            "title": "Atreya Health App",
+            "subtitle": "Personalized Health Tracking",
+            "description": "Comprehensive health tracking application with AI-powered insights, personalized recommendations, and medical knowledge integration.",
+            "image": "/projects/atreya.jpg",
+            "tags": [
+                "Healthcare",
+                "AI",
+                "Neo4j",
+                "Python"
+            ],
+            "github": "https://github.com/yourusername/atreya",
+            "demo": "https://atreya-frontend.onrender.com",
+            "highlights": [
+                "Personalized health recommendations",
+                "Medical knowledge graph with Neo4j",
+                "Health metrics tracking and analysis",
+                "Cloud deployment with AuraDB"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "id": "ml-intern-1",
+            "company": "Tech Company",
+            "role": "ML Engineering Intern",
+            "period": "2024",
+            "description": "Developed machine learning models for logistics optimization and predictive analytics.",
+            "achievements": [
+                "Built ML models improving logistics efficiency by 25%",
+                "Implemented real-time prediction systems",
+                "Optimized data pipelines for faster processing"
+            ],
+            "technologies": [
+                "Python",
+                "TensorFlow",
+                "Scikit-learn",
+                "Docker"
+            ]
+        },
+        {
+            "id": "ai-intern-1",
+            "company": "AI Startup",
+            "role": "AI Research Intern",
+            "period": "2023",
+            "description": "Worked on AI-powered call auditing systems using NLP and speech recognition.",
+            "achievements": [
+                "Developed NLP models for call quality analysis",
+                "Implemented sentiment analysis pipelines",
+                "Achieved 90%+ accuracy in call classification"
+            ],
+            "technologies": [
+                "Python",
+                "Transformers",
+                "NLP",
+                "FastAPI"
+            ]
+        },
+        {
+            "id": "dl-intern-1",
+            "company": "Research Lab",
+            "role": "Deep Learning Intern",
+            "period": "2023",
+            "description": "Researched and developed audiovisual deep learning models for multimedia analysis.",
+            "achievements": [
+                "Built multimodal deep learning architectures",
+                "Published research on audio-visual fusion",
+                "Improved model accuracy by 15%"
+            ],
+            "technologies": [
+                "PyTorch",
+                "Computer Vision",
+                "Audio Processing",
+                "CUDA"
+            ]
+        }
+    ]
+}
