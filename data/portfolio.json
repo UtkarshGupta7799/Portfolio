@@ -217,14 +217,14 @@
         "Qualified GATE 2025 (CS) - Among top 15% of candidates in a national-level engineering exam"
     ],
     "hackathons": [
-        "Smart India Hackathon 2024 - FinAlogica (Fishery Optimization)",
-        "Smart India Hackathon 2023 - Atreya (Ayurvedic Health Platform)",
-        "Sahamati BuildAAthon 2024 - CognitiCharts (Financial Chart Analysis)",
-        "DevCraft IIT Indore - FinAlogica (CNN Species Classifier)",
-        "Celo, Aurora, Harmony - BlockAgent Toolkit (Blockchain Development)",
-        "Social Summer Of Code Season 3 - Atreya (Open Source Contribution)"
+        "Smart India Hackathon 2024",
+        "Smart India Hackathon 2023",
+        "Sahamati BuildAAthon 2024",
+        "DevCraft IIT Indore",
+        "Social Summer Of Code Season 3"
     ],
     "publications": [
         "Co-authored Research Publication on TrendForage (Approximate Query Processing)"
     ]
 }
+```
