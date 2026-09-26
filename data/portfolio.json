@@ -1,229 +1,243 @@
 {
-    "personal": {
-        "name": "Utkarsh Gupta",
-        "title": "Machine Learning & AI Engineer",
-        "tagline": "Building Intelligent Systems with Deep Learning & Computer Vision",
-        "bio": "Passionate ML/AI Engineer specializing in deep learning, computer vision, and intelligent systems. Top 0.1% in Kaggle ML competitions and GATE 2025 qualified. I transform complex problems into elegant solutions using cutting-edge AI technologies.",
-        "email": "youh5801@gmail.com",
-        "phone": "+91-9889912521",
-        "location": "India",
-        "github": "https://github.com/UtkarshGupta7799",
-        "linkedin": "https://www.linkedin.com/in/utkarsh-gupta-5b7b141b3/",
-        "leetcode": "https://leetcode.com/u/UtkarshGupta01/"
+  "personal": {
+    "name": "Utkarsh Gupta",
+    "initials": "UG",
+    "title": "Full-Stack Developer & AI Product Engineer",
+    "tagline": "I build production AI systems that turn complex data into controlled, useful action.",
+    "bio": "Full-stack developer focused on agentic AI, distributed backends, and customer-facing products. I own systems end to end - from APIs, queues, databases, and model orchestration to the interfaces people use to make decisions.",
+    "email": "utkarsh.gupta7799@gmail.com",
+    "phone": "+91-9889912521",
+    "location": "Noida, India",
+    "availability": "Open to full-time software and AI product roles",
+    "github": "https://github.com/UtkarshGupta7799",
+    "linkedin": "https://www.linkedin.com/in/utkarsh-gupta-5b7b141b3/",
+    "leetcode": "https://leetcode.com/u/UtkarshGupta01/",
+    "resume": "/Utkarsh_Gupta_Resume.pdf"
+  },
+  "education": {
+    "institution": "JSS Academy of Technical Education, Noida",
+    "degree": "Bachelor of Technology",
+    "department": "Computer Science and Engineering",
+    "period": "2022 - 2026",
+    "cgpa": "8.0 / 10",
+    "status": "Graduating 2026"
+  },
+  "stats": [
+    { "label": "Production AI workflows", "value": "4+" },
+    { "label": "Records queried", "value": "100M+" },
+    { "label": "Codeforces peak", "value": "1669" },
+    { "label": "Problems solved", "value": "750+" }
+  ],
+  "capabilities": [
+    {
+      "index": "01",
+      "title": "Agentic products",
+      "description": "Natural-language systems that inspect evidence, propose actions, create editable drafts, and keep humans in control."
     },
-    "education": {
-        "institution": "JSS Academy Of Technical Education Noida",
-        "degree": "Bachelor of Technology",
-        "department": "Computer Science and Engineering",
-        "period": "2022 - 2026"
+    {
+      "index": "02",
+      "title": "Full-stack ownership",
+      "description": "Features carried from schema and API design through queues, integrations, React workflows, deployment, and production support."
     },
-    "stats": [
-        {
-            "label": "Projects Completed",
-            "value": "5+"
-        },
-        {
-            "label": "LeetCode Problems",
-            "value": "750+"
-        },
-        {
-            "label": "Kaggle Rank",
-            "value": "Top 0.1%"
-        }
-    ],
-    "skills": {
-        "Programming Languages": [
-            "Java",
-            "Python",
-            "C++",
-            "Rust"
-        ],
-        "Libraries & Frameworks": [
-            "TensorFlow",
-            "PyTorch",
-            "Scikit-learn",
-            "Node.js",
-            "React",
-            "Nuxt.js",
-            "LangChain"
-        ],
-        "Tools & Platforms": [
-            "AWS",
-            "Docker",
-            "Kubernetes",
-            "CI/CD",
-            "Apache Spark",
-            "Kafka"
-        ],
-        "Databases": [
-            "SQL",
-            "PostgreSQL",
-            "Neo4j",
-            "MongoDB"
-        ]
+    {
+      "index": "03",
+      "title": "Systems under constraints",
+      "description": "Fast, reliable software built around real limits: large datasets, small GPUs, external APIs, and multi-tenant infrastructure."
+    }
+  ],
+  "skills": {
+    "Networking & Web Internals": ["DNS", "HTTP/HTTPS", "TLS", "TCP", "Reverse Proxying", "WebSockets", "Nginx", "Network Debugging"],
+    "Languages": ["TypeScript", "JavaScript", "Python", "Java", "C++", "Rust"],
+    "Full-Stack & APIs": ["React", "Next.js", "Nuxt.js", "Node.js", "Express", "Fastify", "FastAPI", "Flask", "REST APIs", "Webhooks"],
+    "Backend & Distributed Systems": ["Microservices", "Event-Driven Architecture", "Apache Kafka", "BullMQ", "Background Workers", "Caching", "Apache Spark"],
+    "Data": ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Neo4j", "Prisma", "Query Optimization", "Indexing"],
+    "Authentication & Security": ["JWT", "OAuth 2.0", "Auth0", "RBAC", "bcrypt", "Tenant Isolation", "Rate Limiting", "SSRF Protection"],
+    "Cloud & DevOps": ["AWS EC2", "AWS S3", "Docker", "Docker Compose", "Kubernetes", "GitHub Actions", "CI/CD", "Linux/Bash"],
+    "Integrations": ["Google Ads API", "WordPress API", "Shopify API", "Stripe", "Razorpay", "Socket.io"],
+    "AI & LLM Engineering": ["Multi-provider LLM APIs", "RAG", "LangChain", "QLoRA", "TensorFlow", "PyTorch", "Prompt Engineering", "Tool Calling"],
+    "Testing & Core CS": ["Pytest", "Jest", "Vitest", "Postman", "Integration Testing", "Data Structures & Algorithms", "OOP", "System Design"]
+  },
+  "projects": [
+    {
+      "id": "trendforage",
+      "index": "01",
+      "title": "TrendForage",
+      "subtitle": "Approximate query processing at 100M+ record scale",
+      "description": "Architected an approximate query-processing engine that avoids full scans by using probabilistic stream sampling with measurable accuracy bounds.",
+      "tags": ["Python", "Probabilistic Sampling", "Large-Scale Data", "Benchmarking"],
+      "github": "https://github.com/UtkarshGupta7799/TrendForage",
+      "demo": "https://trendforage.onrender.com",
+      "metric": "5x",
+      "metricLabel": "faster execution",
+      "highlights": [
+        "Queries datasets containing more than 100 million records",
+        "Benchmarks latency, throughput, sample size, and approximation error in real time",
+        "Produced findings that contributed to two co-authored research publications"
+      ]
     },
-    "projects": [
-        {
-            "id": "trendforage",
-            "title": "TrendForage",
-            "subtitle": "Approximate Query Processing Engine",
-            "description": "AQP engine leveraging Probabilistic Stream Sampling to query 100M+ records with negligible latency. Built a real-time benchmarking suite, achieving up to 5x faster execution with controlled accuracy loss.",
-            "image": "/projects/trendforage.jpg",
-            "tags": [
-                "ML",
-                "Analytics",
-                "Streamlit",
-                "Python"
-            ],
-            "github": "https://github.com/UtkarshGupta7799/TrendForage",
-            "demo": "https://trendforage.onrender.com",
-            "highlights": [
-                "AQP engine with Probabilistic Stream Sampling",
-                "Queries 100M+ records with negligible latency",
-                "Real-time benchmarking suite",
-                "5x faster execution with controlled accuracy"
-            ]
-        },
-        {
-            "id": "cogniticharts",
-            "title": "CognitiCharts",
-            "subtitle": "Deep Learning Pattern Recognition",
-            "description": "Deep learning engine for pattern recognition using TensorFlow and PyTorch, achieving 87% accuracy. SHAP-based XAI cut false positives by 28% and enabled a 2.3 Sharpe ratio on 5-year backtested data.",
-            "image": "/projects/cogniticharts.jpg",
-            "tags": [
-                "Computer Vision",
-                "Deep Learning",
-                "TensorFlow",
-                "PyTorch"
-            ],
-            "github": "https://github.com/UtkarshGupta7799/CognitiCharts",
-            "demo": "https://cogniticharts.onrender.com",
-            "highlights": [
-                "87% accuracy in pattern recognition",
-                "SHAP-based explainable AI implementation",
-                "28% reduction in false positives",
-                "2.3 Sharpe ratio on 5-year backtest"
-            ]
-        },
-        {
-            "id": "atreya",
-            "title": "Atreya",
-            "subtitle": "Graph-RAG Health Engine",
-            "description": "Graph-RAG engine using LangChain and Neo4j Aura, achieving 90% accuracy via Ayurvedic grounding. Improved precision by 75% and treatment efficacy by 40% using a knowledge graph of 1,000+ herbs.",
-            "image": "/projects/atreya.jpg",
-            "tags": [
-                "Healthcare",
-                "AI",
-                "Neo4j",
-                "LangChain"
-            ],
-            "github": "https://github.com/UtkarshGupta7799/Atreya",
-            "demo": "https://atreya-frontend.onrender.com",
-            "highlights": [
-                "90% accuracy via Ayurvedic grounding",
-                "Knowledge graph of 1,000+ herbs",
-                "75% improvement in precision",
-                "40% increase in treatment efficacy"
-            ]
-        },
-        {
-            "id": "finalogica",
-            "title": "FinAlogica",
-            "subtitle": "CNN Species Classifier & Yield Optimizer",
-            "description": "CNN species classifier using MobileNetV3 and FastAPI, achieving 95% accuracy via transfer learning. Yield optimization engine with weather data and PostgreSQL, boosting fishery productivity by 30%.",
-            "image": "/projects/finalogica.jpg",
-            "tags": [
-                "FinTech",
-                "ML",
-                "FastAPI",
-                "PostgreSQL"
-            ],
-            "github": "https://github.com/UtkarshGupta7799/FinAlogica",
-            "demo": "https://fin-alogica.vercel.app",
-            "highlights": [
-                "95% accuracy with MobileNetV3",
-                "Transfer learning implementation",
-                "30% boost in fishery productivity",
-                "Weather data integration"
-            ]
-        },
-        {
-            "id": "blockagent",
-            "title": "BlockAgent Toolkit",
-            "subtitle": "Agentic AI for Blockchain",
-            "description": "Orchestrated agentic AI using Web3.js and REST APIs, reducing contract deployment time by 40%. Engineered a simulation-first architecture for EVM safety, handling 1,000+ monthly transactions.",
-            "image": "/projects/blockagent.jpg",
-            "tags": [
-                "Blockchain",
-                "Web3",
-                "AI",
-                "Docker"
-            ],
-            "github": "https://github.com/UtkarshGupta7799/BlockAgent_Toolkit",
-            "demo": "https://blockagent-frontend.onrender.com",
-            "highlights": [
-                "40% reduction in deployment time",
-                "Simulation-first EVM architecture",
-                "1,000+ monthly transactions",
-                "Agentic AI orchestration"
-            ]
-        }
-    ],
-    "experience": [
-        {
-            "id": "krosswork",
-            "company": "KrossWork Solutions",
-            "role": "AI Quality Analyst",
-            "period": "Oct 2024 - May 2025",
-            "location": "Remote",
-            "description": "Designed NLP call-auditing system using BERT embeddings and rule-based scoring, analyzing 10K+ calls.",
-            "achievements": [
-                "Designed NLP call-auditing system using BERT embeddings, analyzing 10K+ calls",
-                "Built text classification pipeline with 87% accuracy on 1,000+ labeled calls",
-                "Customer segmentation with 8 categories, increasing conversions by 25%",
-                "Optimized REST APIs with LRU caching, reducing latency by 40%"
-            ],
-            "technologies": [
-                "Python",
-                "BERT",
-                "NLP",
-                "REST APIs"
-            ]
-        },
-        {
-            "id": "prabha",
-            "company": "Prabha Enterprises",
-            "role": "Data & ML Intern",
-            "period": "Jan 2024 - Sept 2024",
-            "location": "Remote",
-            "description": "Designed XGBoost regression models with feature engineering, slashing delivery times by 35%.",
-            "achievements": [
-                "Designed XGBoost models reducing delivery times by 35%",
-                "Built Random Forest pipeline reducing inventory cost by 20%",
-                "Deployed CNN-based inspection with 95% accuracy using ResNet-50",
-                "Developed LSTM models forecasting disruptions with 82% precision"
-            ],
-            "technologies": [
-                "Python",
-                "TensorFlow",
-                "XGBoost",
-                "LSTM"
-            ]
-        }
-    ],
-    "awards": [
-        "Top 0.1% in Industry-Sponsored Kaggle Machine Learning Competition among 2700+ submissions",
-        "Solved 750+ algorithmic problems on LeetCode spanning core Data Structures & Algorithms topics",
-        "Qualified GATE 2025 (CS) - Among top 15% of candidates in a national-level engineering exam"
-    ],
-    "hackathons": [
-        "Smart India Hackathon 2024",
-        "Smart India Hackathon 2023",
-        "Sahamati BuildAAthon 2024",
-        "DevCraft IIT Indore",
-        "Social Summer Of Code Season 3"
-    ],
-    "publications": [
-        "Co-authored Research Publication on TrendForage (Approximate Query Processing)"
-    ]
+    {
+      "id": "galenos",
+      "index": "02",
+      "title": "Galenos",
+      "subtitle": "Domain AI inference on constrained GPU memory",
+      "description": "Built an end-to-end domain-specific assistant spanning data preparation, model fine-tuning, optimized inference, and real-time streamed responses.",
+      "tags": ["Python", "Phi-3", "QLoRA", "Socket.io", "NVIDIA T4"],
+      "github": "https://github.com/UtkarshGupta7799/-Galenos",
+      "demo": "https://galenos.vercel.app/",
+      "metric": "3.8B",
+      "metricLabel": "parameters fine-tuned",
+      "highlights": [
+        "Fine-tuned Phi-3 with QLoRA and 4-bit quantization",
+        "Fit model inference inside the 15 GB memory limit of an NVIDIA T4",
+        "Engineered Socket.io streaming and efficient context handling"
+      ]
+    },
+    {
+      "id": "cogniticharts",
+      "index": "03",
+      "title": "CognitiCharts",
+      "subtitle": "Explainable deep-learning market pattern engine",
+      "description": "Combined TensorFlow and PyTorch pattern recognition with SHAP-based explainability to reduce false positives and make model decisions inspectable.",
+      "tags": ["TensorFlow", "PyTorch", "SHAP", "Time Series"],
+      "github": "https://github.com/UtkarshGupta7799/CognitiCharts",
+      "demo": "https://cogniticharts.onrender.com/",
+      "metric": "87%",
+      "metricLabel": "pattern accuracy",
+      "highlights": [
+        "Reduced false positives by 28% with explainable AI",
+        "Reached a 2.3 Sharpe ratio on five years of backtested data",
+        "Built during Sahamati BuildAAthon 2024"
+      ]
+    },
+    {
+      "id": "atreya",
+      "index": "04",
+      "title": "Atreya",
+      "subtitle": "Graph-RAG engine grounded in Ayurvedic knowledge",
+      "description": "Created a grounded retrieval system with LangChain and Neo4j Aura over a structured knowledge graph of more than 1,000 herbs.",
+      "tags": ["Graph RAG", "LangChain", "Neo4j", "Healthcare AI"],
+      "github": "https://github.com/UtkarshGupta7799/Atreya",
+      "demo": "https://atreya-frontend.onrender.com",
+      "metric": "90%",
+      "metricLabel": "grounded accuracy",
+      "highlights": [
+        "Improved retrieval precision by 75%",
+        "Measured a 40% improvement in treatment efficacy",
+        "Built for Smart India Hackathon and Social Summer of Code"
+      ]
+    },
+    {
+      "id": "finalogica",
+      "index": "05",
+      "title": "FinAlogica",
+      "subtitle": "Species classification and fishery yield optimization",
+      "description": "Delivered a MobileNetV3 classifier behind FastAPI and connected real-time weather signals to a PostgreSQL-backed yield optimization workflow.",
+      "tags": ["MobileNetV3", "FastAPI", "PostgreSQL", "Socket.io"],
+      "github": "https://github.com/UtkarshGupta7799/FinAlogica",
+      "demo": "https://fin-alogica.vercel.app",
+      "metric": "95%",
+      "metricLabel": "classification accuracy",
+      "highlights": [
+        "Used transfer learning for accurate species classification",
+        "Added RBAC and bcrypt-backed access control",
+        "Boosted modeled fishery productivity by 30%"
+      ]
+    },
+    {
+      "id": "blockagent",
+      "index": "06",
+      "title": "BlockAgent Toolkit",
+      "subtitle": "Simulation-first agentic tooling for EVM workflows",
+      "description": "Orchestrated autonomous contract workflows with Web3.js and REST APIs while using controller-led simulation as a safety boundary.",
+      "tags": ["Web3.js", "Agentic AI", "EVM", "REST APIs"],
+      "github": "https://github.com/UtkarshGupta7799/BlockAgent_Toolkit",
+      "demo": "https://blockagent-frontend.onrender.com",
+      "metric": "40%",
+      "metricLabel": "less deployment time",
+      "highlights": [
+        "Handled more than 1,000 monthly transactions",
+        "Designed controller logic for safer contract execution",
+        "Built across Celo, Aurora, and Harmony ecosystems"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "causalfunnel",
+      "company": "CausalFunnel",
+      "role": "Full Stack Developer - AI Products",
+      "period": "Jan 2026 - Present",
+      "location": "Remote",
+      "description": "Own AI-powered marketing systems across paid growth, SEO/GEO, and conversion optimization from backend architecture through customer-facing workflows.",
+      "achievements": [
+        "Architected a natural-language Google Ads agent using TypeScript, Fastify, PostgreSQL, and Google Ads APIs to audit performance, tracking, search-term waste, budgets, and bidding",
+        "Enabled controlled campaign creation and optimization through editable drafts, schema validation, approvals, audit trails, asynchronous execution, and provider read-back verification",
+        "Built a multi-tenant WordPress SEO automation agent with Fastify, Prisma, PostgreSQL, Redis, and BullMQ, including draft, publish, verification, and rollback workflows",
+        "Extended SEO into generative engine optimization across multiple AI search surfaces, tracking mentions, citations, competitors, and answer quality",
+        "Shipped an agentic CRO workflow using traffic, heatmaps, user journeys, and funnel signals to propose nudges, A/B tests, and landing-page improvements"
+      ],
+      "technologies": ["TypeScript", "React", "Fastify", "PostgreSQL", "MongoDB", "Redis", "BullMQ", "Google Ads API", "WordPress"]
+    },
+    {
+      "id": "cynapto",
+      "company": "Cynapto Technologies",
+      "role": "AI Intern",
+      "period": "Jun 2025 - Nov 2025",
+      "location": "Remote",
+      "description": "Worked on audiovisual synchronization and neural rendering pipelines under constrained compute.",
+      "achievements": [
+        "Designed an end-to-end audiovisual synchronization pipeline using bidirectional LSTM networks",
+        "Improved synchronization accuracy by 30% through sequence-window, model, and feature-alignment experiments",
+        "Profiled and optimized NeRF rendering pipelines, reducing processing time by 25% while balancing memory and visual quality"
+      ],
+      "technologies": ["Python", "BiLSTM", "NeRF", "PyTorch", "Computer Vision"]
+    },
+    {
+      "id": "krosswork",
+      "company": "KrossWork Solutions",
+      "role": "AI Quality Analyst",
+      "period": "Oct 2024 - May 2025",
+      "location": "Remote",
+      "description": "Built applied NLP and backend systems for call auditing, classification, and customer segmentation.",
+      "achievements": [
+        "Designed a BERT and rule-based call-auditing system analyzing more than 10,000 calls",
+        "Built a sentiment-aware classifier with 87% accuracy across 1,000+ labeled calls",
+        "Created eight customer segments that increased conversions by 25%",
+        "Reduced REST API latency by 40% through LRU caching and lazy loading"
+      ],
+      "technologies": ["Python", "BERT", "NLP", "REST APIs", "Caching"]
+    },
+    {
+      "id": "prabha",
+      "company": "Prabha Enterprises",
+      "role": "Data & ML Intern",
+      "period": "Jan 2024 - Sep 2024",
+      "location": "Remote",
+      "description": "Applied machine learning to delivery forecasting, inventory planning, visual inspection, and supply-chain risk.",
+      "achievements": [
+        "Designed XGBoost regression models that reduced delivery times by 35%",
+        "Built a Random Forest inventory pipeline that reduced costs by 20%",
+        "Deployed ResNet-50 defect inspection with 95% accuracy",
+        "Forecast supply-chain disruptions with LSTM models at 82% precision"
+      ],
+      "technologies": ["Python", "TensorFlow", "XGBoost", "ResNet-50", "LSTM"]
+    }
+  ],
+  "awards": [
+    { "value": "Top 0.1%", "label": "Industry-sponsored Kaggle ML competition", "detail": "Ranked among 2,700+ submissions" },
+    { "value": "Expert", "label": "Codeforces competitive programming rank", "detail": "Peak rating of 1669" },
+    { "value": "Finalist", "label": "Code with Cisco", "detail": "Recognized among top Software Engineer candidates" },
+    { "value": "Top 5%", "label": "GATE Computer Science 2025 & 2026", "detail": "Qualified twice in the national examination" },
+    { "value": "750+", "label": "LeetCode problems solved", "detail": "Data structures, algorithms, and system design" }
+  ],
+  "hackathons": [
+    "Smart India Hackathon 2024",
+    "Smart India Hackathon 2023",
+    "Sahamati BuildAAthon 2024",
+    "DevCraft IIT Indore",
+    "Social Summer of Code Season 3"
+  ],
+  "publications": [
+    "Two co-authored research publications based on TrendForage and approximate query processing"
+  ]
 }
